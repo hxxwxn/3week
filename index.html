@@ -1,0 +1,180 @@
+<!-- 
+    1. 개발자모드 능수 능란하게
+    2. 수치, 클래스, 마크업 복사
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/layout.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <!-- 메인페이지 헤더 소스 다를 수 있기 때문에 따로 -->
+ </head>
+ <body>
+    <div class="wrapper"><!-- 최소기준점을 위해 -->
+        <header class="header">
+            <div class="header-top">
+                <div class="inner">
+                    <h1 class="logo"><a href=""><span class="blind">네이버</span>
+                    <!-- :after -->
+                    </a></h1> <!-- 블라인드 검색엔진 최적화, 접근성 -->
+                    <div class="search-area">
+                        <form action="" method="">
+                            <fieldset><!-- 폼 영역 -->
+                                <legend class="blind">네이버</legend>
+                                <div class="wrap">
+                                    <input type="text" class="input-text">
+                                    <button class="btn-submit"><span class="blind">검색</span></button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="service-area">
+                        <a href="" class="link-start">네이버를 시작페이지로</a>
+                        <i class="bar"></i>
+                        <a href="" class="link-junior"><span class="blind">쥬니어네이버</span></a>
+                        <a href="" class="link-bin"><span class="blind">해피빈</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="inner">
+                    <nav class="gnb">
+                        <ul class="gnb-list">
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                            <li class="gnb-item"><a href="">메일</a></li>
+                        </ul>
+                    </nav>
+
+                    <article class="weather-area">
+                        <!-- 독립적 영역 -->
+                        <h2></h2>
+                        날씨영역
+                        <!-- article, section 아래에는 제목이 나옴 -->
+                    </article>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <div class="column-left">
+                <aside class="ad-area">
+                    <a href="" class="thumb-bd">
+                        <img src="./asset/images/ad01.png" alt="@@@@"><!-- 설명 필수 -->
+                    </a>
+                </aside>
+
+                <section class="sc-news">
+                    <h2 class="blind">뉴스영역</h2>
+                    <div class="group-issue">
+                        <div class="issue-area">
+                            <a href="" class="link-media">연합뉴스</a>
+                            <a href="" class="link-issue">독감 무료 예방접종</a>
+                        </div>
+
+                        <div class="direct-area">
+                            <a href="" class="link-home">뉴스홈</a>
+                            <a href="" class="link-direct">연예</a>
+                            <a href="" class="link-direct">스포츠</a>
+                            <a href="" class="link-direct">경제</a>
+                        </div>
+                    </div>
+                    <div class="group-title">
+                        <a href="" class="link-title">뉴스스탠드</a>
+
+                        <div class="sort-area" role="tablist">
+                            <a href="" class="btn-sort active" role="tab" aria-selected="true">구독한 언론사</a>
+                            <a href="" class="btn-sort" ole="tab" aria-selected="false">전체 언론사</a>
+                        </div>
+
+                        <div class="set-area" role="tablist">
+                            <a href="" class="btn-set ic-list" role="tab" aria-selected="true"><span class="blind">리스트형</span></a>
+                            <a href="" class="btn-set ic-tile" role="tab" aria-selected="false"><span class="blind">썸네일형</span></a>
+                            <a href="" class="btn-set ic-set" aria-selected="false"><span class="blind">뉴스 설정</span></a>
+                        </div>
+                    </div>
+
+                    <div class="group-media">
+                        <ul class="media-list">
+                            <li class="media-item"><a href=""><img src="./asset/images/news.png" alt=""></a></li>
+                            <li class="media-item"><a href=""><img src="./asset/images/news.png" alt=""></a></li>
+                            <li class="media-item"><a href=""><img src="./asset/images/news.png" alt=""></a></li>
+                        </ul>
+
+                        <i class="vt-line vt1"></i><i class="vt-line vt2"></i><i class="vt-line vt3"></i><i class="vt-line vt4"></i><i class="vt-line vt5"></i>
+                        <i class="hr-line hr1"></i><i class="hr-line hr2"></i><i class="hr-line hr3"></i>
+                        <!-- i, span, div 뜻이 없는 디자인 주려고,, 아이콘 등은 i 주로 사용 -->
+                    </div>
+                </section>
+
+                <!-- 
+                    레시피
+                    <section class="sc-themepost">
+                    
+                </section> -->
+
+
+            </div> <!-- // left -->
+            <div class="column-right">
+                <section class="sc-login">
+                    <h2 class="blind">로그인</h2>
+                    <p class="login-msg">네이버를 더 안전하고 편리하게 이용하세요</p>
+                    <a href="" class="link-login">
+                        <span class="blind">네이버 </span>로그인
+                    </a>
+                    <div class="sub-area">
+                        <a href="" class="link-id">아이디</a>
+                        <a href="" class="link-find">비밀번호 찾기</a>
+                        <a href="" class="link-join">회원가입</a>
+                    </div>
+                </section>
+
+                <section class="sc-sidenews">
+                    <h2 class="blind">사이드뉴스</h2>
+                    <a href="" class="link-news">
+                        <span class="badge">이슈</span>
+                        <span class="news">코로나바이러스 19현황</span>
+                    </a>
+
+                    <div class="navi-wrap">
+                        <a href="" class="btn-navi prev" role="button" aria-label="이전 슬라이드"></a>
+                        <a href="" class="btn-navi next" role="button" aria-label="다음 슬라이드"></a>
+                    </div>
+                </section>
+
+                <aside class="ad-area">
+                    <a href="" class="thumb-bd">
+                        <img src="./asset/images/ad02.jpg" alt="">
+                    </a>
+
+                </aside>
+                <!-- 네이버는  div~~  저는 ~~ 시맨틱태그~~ -->
+                <!-- role을 쓰지 않을 수 있으면 최대한 ㄴㄴ -->
+
+                <!--
+                    네이버 마크업 참고! 
+                    <section class="sc-shopping">
+                    <div class="group-head">
+                        <h2 class="title">트렌드쇼핑</h2>
+                        <div class="cate-area">
+                            <a href="">@</a>
+                            <a href="">@</a>
+                            <a href="">@</a>
+                        </div>
+                    </div>
+                </section> -->
+            </div> <!-- // right -->
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
+ </body>
+ </html>
