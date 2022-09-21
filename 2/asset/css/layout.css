@@ -1,0 +1,172 @@
+@import './reset.css';
+@import './common.css';
+
+
+/* 큰틀 잡이 */
+
+.header {}
+.header .header-top {
+    border-bottom: 1px solid #e4e8eb;
+}
+.header .header-top .inner {
+    position: relative;
+    /* 서비스 애리어 부모요소 */
+    width: 1130px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    margin-top: -32px;
+}
+.header .logo a{
+    display: block;
+}
+.header .logo a::after{
+    content: '';
+    display: block;
+    width: 222px;
+    height: 52px;
+    background-position: 0 -158px;
+    /* 모든 좌표는 마이너스!!! */
+} /* 정확하게 떨어지는 걸 쓰기 위해 애프터로 이러면 로고에 좌표만 주면 편하대! */
+
+/* 블럭은 똑 떨어져도 괜찮은 애들 */
+.header .search-area {
+    position: absolute;
+    top: 50%;
+    left: 238px;
+    margin-top: -28px;
+}
+.header .search-area .wrap{
+    position: relative;
+    width: 582px;
+    height: 52px;
+    border: 2px solid #19ce60;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.header .search-area .input-text{
+    width: 444px;
+    height: 24px;
+    padding: 13px 15px;
+    margin: 1px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    outline: 0;
+}
+.header .search-area .btn-submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* 위에 붙이고, 아래 붙이면 늘어나지! */
+    width: 56px;
+    background-color: #19ce60;
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+.header .search-area .btn-submit::after{
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;/* 애프터는 인라인태그, 블럭이나 인라인블럭 줘야함! 인라인 블럭은 부모 영향받음,, 중앙으로 가게 (버튼은 중앙,,) */
+    vertical-align: top;
+    background-position: -420px 0;
+}
+
+
+.header .service-area {
+    position: absolute;
+    top: 12px;
+    right: 27px;
+    display: flex;
+}
+.header .service-area > * {}
+.header .service-area .bar {
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px;
+    background-color: #e4e8eb;
+}
+.header .service-area .link-start {}
+.header .service-area .link-start::after {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: top;/* lh 기준으로 */
+    background-position: -308px -345px;
+    margin: -3px 0 0 3px;/* 위로 땡기고~~ */
+    
+}
+.header .service-area .link-junior::after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    background-position: -200px -330px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px;
+}
+.header .service-area .link-bin {
+    margin-left: 6px;
+}
+.header .service-area .link-bin::after {
+    content: '';
+    display: inline-block;
+    width: 34px;
+    height: 11px;
+    background-position: -380px -199px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px 3px 2px;
+}
+
+.header .header-bottom {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.header .header-bottom .inner {
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .gnb {
+    padding: 11px 0;
+}
+.header .gnb .gnb-list{display: flex;}
+.header .gnb .gnb-item{}
+.header .gnb .gnb-item+.gnb-item{
+    margin-left: 12px;
+}
+.header .gnb .gnb-item>a{
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #19ce60;
+}
+
+
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+
+.footer{}
