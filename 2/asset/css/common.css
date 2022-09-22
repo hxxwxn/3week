@@ -10,3 +10,57 @@
     overflow: hidden;
     clip: rect(0,0,0,0);
 }
+
+
+/* sp area */
+
+.header .logo a::after,
+.header .search-area .btn-submit::after,
+.header .btn-keyboard::after,
+.header .btn-arw::after,
+.header .service-area .link-start::after,
+.header .service-area .link-junior::after,
+.header .service-area .link-bean::after,
+.header .gnb .gnb-item:nth-child(1)::before,
+.header .gnb .nav-shop::before,
+.header .gnb .nav-live::before,
+.header .gnb .gnb-item:last-child::before,
+.header .gnb .btn-more::after,
+.header .degree-box .max::before {
+    background-image: url(../images/sp-img.png);
+    background-repeat: no-repeat;
+    background-size: 457px;
+}
+
+/* weather */
+.header .weather-area a::before {
+    
+        /* bg로만 쓰면 포지션 크기 힘들어서 소분해서쓰기 */
+        background-image: url(../images/weather.png);
+        background-repeat: no-repeat;
+        background-size: 215px 184px;
+        
+        /* 2배 줄임 사이즈 원래 2배 큼 */
+}
+
+
+
+/* thumb-bd */
+.thumb-bd {
+    position: relative;
+    display: block;
+}
+
+.thumb-bd::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000;
+    opacity: .1;
+}
+.thumb-bd img{
+    width: 100%;
+}

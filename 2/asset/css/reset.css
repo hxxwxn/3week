@@ -66,12 +66,14 @@ img {
 
 input, button, select {
 	border: 0; /* 꾸민 적 없다 */
+	margin: 0;
+	padding: 0;
 	-webkit-appearance: none; /* 둥글둥글 등등 빼주기 */
 	background-color: transparent; /* 배경 투명주기 */
 }
 
 /* 보통 리셋에서 바디   - 폰트는 제일 위에 */
-body {
+body, button {
 	font-size: 12px;
     line-height: 16px;
     color: #202020;

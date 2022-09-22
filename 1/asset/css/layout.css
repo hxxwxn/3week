@@ -4,7 +4,6 @@
 
 /* 큰틀 잡이 */
 
-.header {}
 .header .header-top {
     border-bottom: 1px solid #e4e8eb;
 }
@@ -90,14 +89,14 @@
     right: 27px;
     display: flex;
 }
-.header .service-area > * {}
+/* .header .service-area > * {} */
 .header .service-area .bar {
     width: 1px;
     height: 10px;
     margin: 3px 7px;
     background-color: #e4e8eb;
 }
-.header .service-area .link-start {}
+/* .header .service-area .link-start {} */
 .header .service-area .link-start::after {
     content: '';
     display: inline-block;
