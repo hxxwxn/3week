@@ -26,7 +26,24 @@
 .header .gnb .nav-live::before,
 .header .gnb .gnb-item:last-child::before,
 .header .gnb .btn-more::after,
-.header .degree-box .max::before {
+.header .degree-box .max::before,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-issue .link-home::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-title .link-title::after,
+.sc-news .group-title .ic-list::after,
+.sc-news .group-title .ic-tile::after,
+.sc-news .group-title .ic-set::after,
+.sc-news .group-media .btn-prev,
+.sc-news .group-media .btn-next,
+.sc-themecast .group-category .btn-prev,
+.sc-themecast .group-category .btn-next,
+.sc-themecast .group-title .info-area .btn-set:before,
+.sc-themecast .group-category .btn-prev::after,
+.sc-themecast .ico-play::after,
+.sc-themecast .theme-title a.title:after,
+.sc-themecast .media-view-wrap.type-flick .pm-btn-next::after,
+.sc-themecast .btn-more-wrap .btn-more::before {
     background-image: url(../images/sp-img.png);
     background-repeat: no-repeat;
     background-size: 457px;
@@ -42,8 +59,6 @@
         
         /* 2배 줄임 사이즈 원래 2배 큼 */
 }
-
-
 
 /* thumb-bd */
 .thumb-bd {

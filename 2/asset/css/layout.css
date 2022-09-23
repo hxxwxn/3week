@@ -13,7 +13,7 @@
     width: 1130px;
     height: 160px;
     margin: 0 auto;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 /******** 로고 ********/
@@ -372,7 +372,7 @@
     padding-left: 9px;
     color: grey;
     text-align: right;
-
+    font-size: 12px;
 }
 
 
