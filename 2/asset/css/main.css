@@ -314,6 +314,7 @@
     color: #000;
     font-weight: bold;
 }
+
 .sc-themecast .title-area .dsc {
     margin-left: 4px;
     color: grey;
@@ -322,6 +323,7 @@
 .sc-themecast .info-area .info {
     color: grey;
 }
+
 .sc-themecast .info-area .info .new {
     color: #000;
     font-weight: bold;
@@ -332,6 +334,7 @@
     margin-left: 14px;
     color: #505050;
 }
+
 .sc-themecast .group-title .info-area .btn-set:before {
     content: '';
     display: inline-block;
@@ -343,6 +346,7 @@
     vertical-align: -1px;
     opacity: .7;
 }
+
 .sc-themecast .group-title .info-area .btn-set:after {
     position: absolute;
     top: 2px;
@@ -367,6 +371,7 @@
     overflow: hidden;
 
 }
+
 .sc-themecast .group-category .list-category:before {
     position: absolute;
     top: 0;
@@ -376,6 +381,7 @@
     content: '';
     border: 1px solid #dae1e6;
 }
+
 .sc-themecast .group-category .category-item {
     position: relative;
     display: inline-block;
@@ -393,30 +399,38 @@
     text-align: center;
     text-decoration: none;
 }
+
 .sc-themecast .group-category .tab.id-enter:hover {
     color: #e65da0;
 }
+
 .sc-themecast .group-category .tab.id-sports:hover {
     color: #0147b5;
 }
+
 .sc-themecast .group-category .tab.id-cargame:hover {
     color: #4a94e1;
 }
+
 .sc-themecast .group-category .tab.id-bboom:hover {
     color: #66c971;
 }
+
 .sc-themecast .group-category .tab.id-finance:hover {
     color: #35ae5e;
 }
+
 .sc-themecast .group-category .tab.id-myfeed:hover {
     color: #5290ff;
 }
+
 /* .sc-themecast .group-category .tab.id-living:hover {
     color: #ebaa00;
 } */
 .sc-themecast .group-category .tab.id-livinghome:hover {
     color: #c08d31;
 }
+
 .sc-themecast .group-category .tab.id-living {
     background-color: #ebaa00;
     color: #fff;
@@ -426,13 +440,15 @@
     height: 50px;
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
 }
+
 /* 추천, 구독 사이 */
-.sc-themecast .group-category .ico-middot, .sc-themecast .group-edit .ico-middot {
+.sc-themecast .group-category .ico-middot,
+.sc-themecast .group-edit .ico-middot {
     width: 2px;
     height: 2px;
     display: inline-block;
     margin: 0 -2px;
-    background-color: rgba(32,32,32,.8);
+    background-color: rgba(32, 32, 32, .8);
     -webkit-border-radius: 50%;
     border-radius: 50%;
     vertical-align: 4px;
@@ -476,11 +492,13 @@
 .sc-themecast .theme-cont {
     padding-top: 4px;
 }
+
 .sc-themecast .group-topstory {
     display: flex;
     border-bottom: 1px solid #e4e8eb;
     padding: 18px 0;
 }
+
 .sc-themecast .topstory-inner {
     width: 364px;
 }
@@ -496,6 +514,7 @@
 .sc-themecast .topstory-inner img {
     transition: transform .2s;
 }
+
 .sc-themecast .topstory-inner:hover img {
     transform: scale(1.05);
 }
@@ -528,7 +547,7 @@
     left: 12px;
 }
 
-.sc-themecast .ico-play::after { 
+.sc-themecast .ico-play::after {
     content: '';
     display: inline-block;
     width: 24px;
@@ -559,6 +578,7 @@
     padding: 3px 6px;
     font-size: 12px;
 }
+
 .sc-themecast .theme-runtime .runtime-bg {
     position: absolute;
     top: 0;
@@ -576,7 +596,7 @@
 .sc-themecast .theme-runtime .time {
     position: relative;
     z-index: 1;
-    
+
 }
 
 /* 설명 부분 */
@@ -620,6 +640,7 @@
     font-size: 13px;
     color: #404040;
 }
+
 .sc-themecast .topstory-view .topstory-info .source-area {
     display: inline-block;
     overflow: hidden;
@@ -627,11 +648,13 @@
     margin-top: 4px;
     vertical-align: top;
 }
+
 .sc-themecast .topstory-view .topstory-info .source {
     overflow: hidden;
     display: block;
     color: #505050;
 }
+
 .sc-themecast .topstory-view .topstory-info .source-inner {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -651,6 +674,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .sc-themecast .list-theme .theme-item+.theme-item {
     margin-top: 18px;
 }
@@ -743,6 +767,7 @@
     float: right;
     color: grey;
 }
+
 .sc-themecast .list-theme .date:before {
     background-color: grey;
     display: inline-block;
@@ -755,6 +780,7 @@
     margin: 0 5px 0 6px;
     vertical-align: 3px;
 }
+
 .sc-themecast .source-box .source-inner {
     line-height: 20px;
 }
@@ -767,6 +793,25 @@
 
 .sc-themecast .media-view-wrap.type-column {
     padding: 18px 0 17px;
+}
+
+.sc-themecast .flick-viewport {
+    position: relative;
+    z-index: 5;
+    min-height: 100%;
+    width: 100%;
+    touch-action: pan-y;
+    user-select: none;
+    height: 240px;
+}
+.sc-themecast .flick-camera {
+    width: 100%; 
+    height: 100%; 
+}
+.sc-themecast .flick-panel {
+    width: 750px; 
+    position: absolute; 
+    left: 0px;
 }
 
 .sc-themecast .media-view-wrap.type-column .media-view {
@@ -789,9 +834,11 @@
 .sc-themecast .media-view .media-area img {
     transition: transform .2s;
 }
+
 .sc-themecast .media-view .media-area:hover img {
     transform: scale(1.05);
 }
+
 .sc-themecast .media-view .ico-play {
     position: absolute;
     bottom: 8px;
@@ -824,6 +871,7 @@
     display: block;
     padding-top: 12px;
 }
+
 .sc-themecast .media-view .info-box {
     overflow: hidden;
 }
@@ -840,6 +888,7 @@
     font-size: 13px;
     font-weight: bold;
 }
+
 .sc-themecast .media-view .media-area:hover .title {
     text-decoration: underline;
 }
@@ -850,10 +899,13 @@
     margin-top: 3px;
     vertical-align: top;
 }
-.sc-themecast .media-view .date, .sc-themecast .media-view .dsc{
+
+.sc-themecast .media-view .date,
+.sc-themecast .media-view .dsc {
     float: right;
     color: grey;
 }
+
 .sc-themecast .media-view .date:before,
 .sc-themecast .media-view .dsc:before {
     background-color: grey;
@@ -893,6 +945,7 @@
     font-size: 14px;
     color: #000;
 }
+
 .sc-themecast .theme-title a.title:after {
     display: inline-block;
     width: 7px;
@@ -928,8 +981,9 @@
     background-position: -86px -345px;
     vertical-align: top;
 }
+
 .sc-themecast .media-view-wrap.type-flick .pm-btn-next:hover::after {
-    
+
     background-position: -170px -345px;
 }
 
@@ -941,6 +995,7 @@
     vertical-align: top;
     text-decoration: none;
 }
+
 .sc-themecast .media-view-wrap.type-flick .media-area+.media-area {
     margin-left: 24px;
 }
@@ -1004,6 +1059,7 @@
     margin-bottom: 42px;
     border-bottom: 1px solid #e4e8eb;
 }
+
 .sc-themecast .btn-more-wrap .btn-more {
     position: absolute;
     top: 0;
@@ -1011,6 +1067,7 @@
     color: #505050;
     cursor: pointer;
 }
+
 /* .sc-themecast .btn-more-wrap .btn-more span {
     position: absolute;
     top: 40px;
@@ -1023,3 +1080,7 @@
     background-position: 0 -345px;
     margin: 0 auto 3px;
 }
+
+
+
+/****************** 오른쪽 ******************/
