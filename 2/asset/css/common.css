@@ -43,7 +43,14 @@
 .sc-themecast .ico-play::after,
 .sc-themecast .theme-title a.title:after,
 .sc-themecast .media-view-wrap.type-flick .pm-btn-next::after,
-.sc-themecast .btn-more-wrap .btn-more::before {
+.sc-themecast .btn-more-wrap .btn-more::before,
+.sc-login .link-login::before,
+.sc-login .sub-area .look-box:before,
+.sc-login .sub-area .link-join:before,
+.sc-sidenews .btn-navi.prev::after,
+.sc-sidenews .btn-navi.next::after,
+.sc-sidenews .btn-navi.prev:hover::after,
+.sc-sidenews .btn-navi.next:hover::after {
     background-image: url(../images/sp-img.png);
     background-repeat: no-repeat;
     background-size: 457px;
@@ -58,6 +65,22 @@
         background-size: 215px 184px;
         
         /* 2배 줄임 사이즈 원래 2배 큼 */
+}
+
+/* shop-cast */
+.sc-shopcast .shop-header .link-shop .ls-link::before,
+.sc-shopcast .shop-header .link-shop .ls-link::after,
+.shop-wrap .shop-control .btn-prev::before,
+.shop-wrap .shop-control .btn-next::before,
+.shop-wrap .shop-page .btn-prev::before,
+.shop-wrap .shop-page .btn-next::before,
+.shop-wrap .group-plusdeal .link-logo::before,
+.shop-wrap .group-plusdeal .ico-one-alpha,
+.shop-wrap .group-plusdeal .ico-one-plus,
+.shop-wrap .group-plusdeal .thumb-box+.thumb-box:before  {
+    background-image: url(../images/sp-img01.png);
+    background-repeat: no-repeat;
+    background-size: 107px 101px;
 }
 
 /* thumb-bd */
@@ -79,3 +102,4 @@
 .thumb-bd img{
     width: 100%;
 }
+

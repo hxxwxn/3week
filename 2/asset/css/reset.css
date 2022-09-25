@@ -56,9 +56,14 @@ table {
 a {
 	text-decoration: none;
 	color: inherit;
-
 }
 
+a:hover {
+	text-decoration: underline;
+}
+strong {
+	font-weight: bold;
+}
 img {
 	display: block;
 	max-width: 100%;
