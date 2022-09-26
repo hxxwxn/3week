@@ -386,3 +386,257 @@
     padding: 20px 30px;
 
 }
+
+/**************** 하단 ****************/
+.footer {
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
+}
+
+.footer .footer-inner {
+    width: 1130px;
+    padding: 0 30px 92px;
+    margin: 0 auto;
+}
+
+.footer .banner-area {
+    overflow: hidden;
+    padding: 24px 0;
+    border-bottom: 1px solid #e4e8eb;
+    display: flex;
+
+}
+
+.footer .main-public {
+    position: relative;
+    width: 350px;
+    height: 86px;
+    font-family: "Malgun Gothic", "맑은 고딕", -apple-system, BlinkMacSystemFont, helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+.footer .main-public+.main-public {
+    margin-left: 40px;
+}
+
+.footer .main-public .main-public-wrap {
+    display: flex;
+}
+
+.footer .main-public a, .main-public img {
+    border: none;
+    outline: none;
+}
+
+.footer .main-public a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .main-public-image {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 86px;
+}
+
+.footer .main-public-wrap .main-public-image img {
+    transition: transform .2s;
+}
+
+.footer .main-public-wrap:hover .main-public-image img {
+    transform: scale(1.05);
+} 
+
+.footer .main-public-image::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    content: '';
+}
+
+.footer .main-public-content {
+    overflow: hidden;
+    height: 86px;
+    padding: 2px 2px 0 16px;
+    font-size: 12px;
+    line-height: 1.25;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.footer .main-public-subtitle {
+    display: block;
+    overflow: hidden;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    color: #58c464;
+    white-space: nowrap;
+}
+
+.footer .main-public-title {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.26px;
+    color: #242424;
+    white-space: nowrap;
+}
+
+.footer .main-public-content:hover .main-public-title {
+    text-decoration: underline;
+}
+
+.footer .main-public-desc {
+    margin-top: 8px;
+}
+
+.footer .main-public-desc, .main-public-desc2 {
+    overflow: hidden;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    color: #424242;
+    white-space: nowrap;
+}
+
+
+/* 공지사항 */
+.footer .notice-area {
+    padding: 16px 0 15px;
+    border-bottom: 1px solid #e4e8eb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .notice-box .title {
+    margin-right: 13px;
+    color: #202020;
+}
+.footer .notice-box .title a{
+    font-weight: bold;
+}
+
+.footer .notice-area .link-all {
+    font-weight: 700;
+    color: #202020;
+}
+
+.footer .notice-area .link-all:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background-position: -444px -268px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-left: 10px;
+    vertical-align: -2px;
+}
+
+/* 여러 연결채널 */
+.footer .aside-area {
+    border-bottom: 1px solid #e4e8eb;
+    display: flex;
+}
+
+.footer .partner-box-wrap {
+    width: 780px;
+    padding: 20px 0;
+}
+
+.footer .partner-box {
+    display: flex;
+}
+
+.footer .partner-box+.partner-box {
+    margin-top: 9px;
+}
+
+.footer .partner-box .title {
+    width: 87px;
+    font-weight: bold;
+}
+
+.footer .partner-box .link-partner {
+    color: #777;
+}
+
+.footer .partner-box .link-partner+.link-partner:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+    margin: 0 8px;
+}
+
+/* whale, flower */
+.footer .service-box-wrap {
+    width: 350px;
+    padding: 28px 0;
+    display: flex;
+}
+
+.footer .service-box {
+    max-width: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer .service-box .service-logo {
+    margin-left: 12px;
+}
+
+.footer .service-box .dsc, .footer .service-box .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    padding-top: 2px;
+}
+
+.footer .service-box .dsc {
+    color: grey;
+}
+
+.footer .service-box+.service-box {
+    margin-left: 50px;
+}
+
+/* 정책 및 약관 */
+.footer .corp-area {
+    padding-top: 25px;
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer .list-corp {
+    margin-right: 13px;
+    display: flex;
+}
+
+.footer .list-corp .corp-item {
+    color: #777;
+}
+
+.footer .list-corp .corp-item+.corp-item:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+}
+
+.footer .corp-area .addr {
+    color: #202020;
+    font-weight: 700;
+}
