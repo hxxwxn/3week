@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+            color: inherit;
+            font: inherit;
+        }
+        body {
+            line-height: 1;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            height: 100px;
+            background: hotpink;
+        }
+        main {
+            width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <main>
+        <style>
+            .box1 {
+                position: relative;
+                display: flex;
+                gap: 10px;
+                margin: 10px auto;
+            }
+            .box1 .slide {
+                flex: 1;
+                height: 300px;
+                background: #ddd;
+            }
+            .box1 .btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 50px;
+                background: hotpink;
+            }
+            .box1 .btn.prev {
+                left: 10px;
+            }
+            .box1 .btn.next {
+                right: 10px;
+            }
+
+            .box1 .pagination {
+                position: absolute;
+                left: 50%;
+                bottom: 10px;
+                transform: translateX(-50%);
+                display: flex;
+                gap: 10px;
+            }
+
+            .box1 .pagination span {
+                width: 30px;
+                height: 30px;
+                background: #fff;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 30px;
+                border: 1px solid #999;
+
+            }
+
+            .box1 .pagination .on {
+                background: hotpink;
+            }
+        </style>
+        <section class="box1">
+            <div class="slide">1</div>
+            <div class="slide">2</div>
+            <a href="" class="btn prev">prev</a>
+            <a href="" class="btn next">next</a>
+            <div class="pagination">
+                <span class="on">1</span>
+                <span>2</span>
+                <span>3</span>
+            </div>
+        </section>
+
+
+        <style>
+            .box2 {
+                background: #ddd;
+                padding: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                gap: 10px;
+            }
+            .box2 .left {
+                flex: 1;
+                height: 300px;
+                background: #999;
+            }
+            .box2 .right {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .box2 .right div {
+                flex: 1;
+                background: #999;
+            }
+        </style>
+        <section class="box2">
+            <div class="left">left</div>
+            <div class="right">
+                <div>right</div>
+                <div>right</div>
+            </div>
+        </section>
+
+        <style>
+            .box3 {
+                padding: 10px;
+                background: #ddd;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+            .box3 >a{
+                line-height: 50px;
+            }
+            .box3 .navi {
+                display: flex;
+                gap: 10px;
+            }
+            .box3 .navi a {
+                width: 50px;
+                height: 50px;
+                background: #999;
+            }
+        </style>
+        <section class="box3">
+            <a href="">shopping</a>
+            <div class="navi">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+            </div>
+        </section>
+
+        <style>
+            .box4 {
+                padding: 10px;
+                background: #ddd;
+                display: flex;
+                gap: 10px;
+            }
+            .box4 .left{
+                flex: 1;
+                padding: 10px;
+                background: #fff;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+            }
+            .box4 .left div{
+                flex: 1;
+                background: #999;
+            }
+            .box4 .right{
+                flex: 1;
+                padding: 10px;
+                background: #fff;
+                display: flex;
+                gap: 10px;
+            }
+            .box4 .right div{
+                flex: 1;
+                height: 200px;
+                background: #999;
+            }
+        </style>
+        <section class="box4">
+            <div class="left">
+                <div>1</div>
+                <div>2</div>
+            </div>
+            <div class="right">
+                <div>1</div>
+                <div>2</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
