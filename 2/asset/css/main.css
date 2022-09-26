@@ -1618,8 +1618,14 @@
 .shop-wrap .group-event .shop-title .title {
     font-size: 13px;
 }
-.shop-wrap .group-event .shop-control {
+.sc-shopcast .shop-wrap .group-event .shop-control {
     top: -6px;
+    right: 0;
+}
+
+.sc-shopcast .shop-wrap .group-plus .shop-control {
+    top: 14px;
+    right: 0;
 }
 /* 내용 */
 .shop-wrap .list-event {
@@ -1746,6 +1752,7 @@
 
 .sc-shopcast .shop-wrap .group-plusdeal .shop-control {
     top: -3px;
+    right: 0;
 }
 
 /* 원쁠딜 내용 */

@@ -50,7 +50,8 @@
 .sc-sidenews .btn-navi.prev::after,
 .sc-sidenews .btn-navi.next::after,
 .sc-sidenews .btn-navi.prev:hover::after,
-.sc-sidenews .btn-navi.next:hover::after {
+.sc-sidenews .btn-navi.next:hover::after,
+.footer .notice-area .link-all:after {
     background-image: url(../images/sp-img.png);
     background-repeat: no-repeat;
     background-size: 457px;
